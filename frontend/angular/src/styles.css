@@ -1,0 +1,92 @@
+/* You can add global styles to this file, and also import other style files */
+@import 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css';
+
+/* Reset CSS completo - Neutraliza padrões dos navegadores */
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* Elementos HTML5 display block para navegadores antigos */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* Remove list styles (bullets/numbers) */
+ol, ul {
+  list-style: none;
+}
+
+/* Links sem decoração padrão */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Tabelas sem espaçamento entre células */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Remove estilos padrão de elementos de formulário */
+input, button, textarea, select {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background-color: transparent;
+  outline: none;
+}
+
+/* Remove aparência padrão em navegadores WebKit */
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  -webkit-appearance: none;
+}
+
+/* Remove estilos padrão de botões */
+button {
+  cursor: pointer;
+  background: none;
+}
+
+/* Remove efeito de foco padrão em alguns navegadores */
+:focus {
+  outline: 0;
+}
+
+/* Corrige problemas com imagens */
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Evita problemas com elementos embutidos */
+iframe {
+  border: none;
+}
+
+/* Remove espaçamento extra em navegadores */
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* Remove formatação de texto pré-formatado */
+pre {
+  white-space: pre-wrap;
+  font-family: monospace;
+}
